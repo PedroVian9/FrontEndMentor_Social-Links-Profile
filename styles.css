@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+
+body {
+    font-family: Inter;
+}
+
+body main {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: fit-content;
+    padding: 25px 80px 25px 80px;
+    border-radius: 8px;
+}
+
+.imageJessica {
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.personal-links {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.personal-city {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.7em;
+    color: hsl(75, 94%, 57%);
+}
+
+.personal-description {
+    margin-top: 2em;
+}
